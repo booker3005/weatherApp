@@ -1,0 +1,41 @@
+/* spaces special margins */
+.text-centre{
+    text-align: centre;
+}
+
+#main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(45, 42, 42);
+    color: white;
+}
+#current-weather{
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(103, 103, 213);
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+#current-info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#forecast{
+    flex: 0.7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+
+
